@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    }
+body{
+  background-color: rgb(245,245,245);
+}
+/*Navbar*/
+.navbar{
+  background-color: black;
+ 
+}
+.navbar .nav-link{
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+
+.navbar .nav-link:hover{ 
+  color: white;
+    background-color:#ff0157;
+}
+
+#one{
+   
+    margin-top: 90px;
+}
+#hd{
+    text-align: center;
+    font-size: 40px;
+}
+#two{
+    /* box-sizing: border-box; */
+    /* border-spacing: 10px; */
+    border: 2px solid grey;
+    background-color: cornsilk;
+    padding: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+ /* FOOTER */
+ #foot{
+	background-color: #00121b;
+	width: 100%;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	padding: 50px 50px;
+	text-align: left;
+	margin-top: 30px;
+  }
+  .footer-left, .footer-center, .footer-right{
+	display: inline-block;
+	  vertical-align: top;
+  }
+  .footer-left{
+	  width: 39%;
+  }
+  .footer-center{
+	  width: 37%;
+  }
+  .footer-right{
+	  width: 20%;
+  }
+  .inner-footer{
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	justify-content: center;
+  }
+  .footer-items{
+	box-sizing: border-box;
+  }
+  #h{
+	padding: 10px 0px;
+	font-size: 19px;
+	color: #fff;
+	text-transform: uppercase;
+	}
+	#he,#hea{
+	  margin: 10px 0px;
+	  color:#fff;
+	  font-size: 16px;
+	  font-weight: lighter;
+	  text-transform: uppercase;
+	}
+	
+	.footer-items .fpara{
+	  color: grey;
+	  font-size: 16px;
+	  text-align: justify;
+	  line-height: 25px;
+	}
+	.A{
+	  font-size: 16px;
+	  line-height: 25px;
+	  text-align: justify;
+	}
+	.r{
+	  color: grey;
+	}
+   .Le{
+	 color: bisque;
+	 text-decoration: none;
+   } 
+   .fpa{
+	 color: blanchedalmond;
+	 margin-top: 10px;
+	 font-size: 16px;
+   }
+   .last{
+	margin-top: 28px; 
+	font-size: 20px;
+	 text-align: center;
+	 color:white;
+   }
+  #icon,#icon1,#icon2{
+	padding-left: 20px;
+  }
+
+  .r:hover{
+  color: white;
+}
+
+@media(max-width:750px){
+  .footer-left{
+    width: 100%;
+  }
+  .footer-center{
+     width: 38%;
+  }
+  .footer-right{
+    width: 100%; 
+  }
+  .A{
+    line-height: 15px;
+  }
+}

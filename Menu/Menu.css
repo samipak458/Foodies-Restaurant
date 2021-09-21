@@ -1,0 +1,270 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration-line: none;
+}
+body{
+  background-color: #555;
+  background-image: url(bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+}
+.container{
+  background-color: rgba(34, 34, 34, 0.88);
+  margin: auto;
+  margin-top: 120px;
+  width: 1000px;
+  height: auto;
+  border-radius: 10px 10px;
+}
+.menu{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  float: top;
+  flex-wrap: wrap;
+}
+#selector{
+  padding: 0px;
+  justify-content: space-around;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.664);
+  background-image: linear-gradient(rgb(40, 40, 40), black);
+  font-family: 'Cambria;';
+  text-align: center;
+  color: goldenrod;
+  height: auto;
+  margin: 0;
+  border-radius: 10px 10px;
+}
+.item{
+  font-family: cursive;
+  font-style: italic;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 10px;
+  height: auto;
+  width: 400px;
+  padding: 5px;
+  border: 3px groove rgb(78, 78, 78);
+  box-shadow: 5 5 5 5;
+  margin: 5px;
+  transition: 0.2s;
+}
+.item:hover{
+  -ms-transform: scale(1.02, 1.02);
+  -webkit-transform: scale(1.02, 1.02);
+  transform: scale(1.02, 1.02); 
+  transition: all 0.2;
+}
+.type{
+  color: goldenrod;
+  margin: 10px;
+  font-size: 20px;
+}
+.type:hover{
+  text-decoration: none;
+  color: gold;
+}
+.price{
+  float: right;
+  font-style: italic;
+  color: goldenrod;
+}
+.itemH{
+  display: inline;
+  font-size: 20px;
+  text-decoration: none;
+}
+.h{
+  color: darkgoldenrod;
+  text-align: center;
+  font-family: sans-serif;
+}
+.des{
+  color: gray;
+  font-family: Arial;
+  font-size: 15px;
+  font-style: normal;
+}
+.menu a{
+  text-decoration-line: none;
+  text-decoration: none;
+}
+#order{
+  border: 2px #555 groove;
+  border-radius: 20px;
+  padding: 15px 30px;
+  background-color: black;
+  color: goldenrod;
+  font-weight: bold;
+  font-family: 'Arial Narrow Bold';
+  font-size: 20px;
+  position: relative;
+  width: 200px;
+  left: 350px;
+  margin: 20px;
+  opacity: 0.9;
+  transition: 0.2s;
+}
+#order:hover{
+background-color: rgb(17, 17, 17);
+color:  gold;
+transition: 0.2s;
+-ms-transform: scale(1.02, 1.02);
+-webkit-transform: scale(1.02, 1.02);
+transform: scale(1.02, 1.02);
+opacity: 1;
+}
+
+/*Navbar*/
+.navbar{
+  background-color: black;
+ 
+}
+.navbar .nav-link{
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+
+.navbar .nav-link:hover{ 
+  color: white;
+    background-color:#ff0157;
+}
+
+/* FOOTER */
+#foot{
+  margin: 0;
+  padding: 0;
+  background-color: #00121b;
+  width: 100%;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 50px 50px;
+  text-align: left;
+  margin-top: 30px;
+}
+.footer-left, .footer-center, .footer-right{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+.footer-left{
+  margin: 0;
+  padding: 0;
+  width: 39%;
+}
+.footer-center{
+  margin: 0;
+  padding: 0;
+  width: 37%;
+}
+.footer-right{
+  margin: 0;
+  padding: 0;
+  width: 20%;
+}
+.inner-footer{
+  margin: 0;
+  padding: 0;
+display: flex;
+flex-wrap: wrap;
+box-sizing: border-box;
+justify-content: center;
+}
+.footer-items{
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+}
+#h{
+  margin: 0;
+  padding: 0;
+padding: 10px 0px;
+font-size: 19px;
+color: #fff;
+text-transform: uppercase;
+}
+#he,#hea{
+  margin: 0;
+  padding: 0;
+  margin: 10px 0px;
+  color:#fff;
+  font-size: 16px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.footer-items .fpara{
+  margin: 0;
+  padding: 0;
+  color: grey;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 25px;
+}
+.A{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+}
+.r{
+  color: grey;
+}
+ .Le{
+ color: bisque;
+ text-decoration: none;
+ } 
+ .fpa{
+  margin: 0;
+  padding: 0;
+ color: blanchedalmond;
+ margin-top: 10px;
+ font-size: 16px;
+ }
+ .last{
+  margin: 0;
+  padding: 0;
+margin-top: 28px; 
+font-size: 20px;
+ text-align: center;
+ color:white;
+ }
+#icon,#icon1,#icon2{
+  margin: 0;
+  padding: 0;
+padding-left: 20px;
+}
+
+ .r:hover{
+  color: white;
+}
+
+@media(max-width:750px){
+  .footer-left{
+    width: 100%;
+  }
+  .footer-center{
+     width: 38%;
+  }
+  .footer-right{
+    width: 100%; 
+  }
+  .A{
+    line-height: 25px;
+  }
+  .order{
+  width: 100%;
+  margin-right: 650px;
+  }
+}

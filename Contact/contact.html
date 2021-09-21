@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--My CSS File-->
+    <link rel="stylesheet" href="contact.css">
+
+    <!--JS file-->
+    <script src="contact.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!--Required Bootsrap js links-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/69fecb4176.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--NavBar-->
+    <nav id="mainNavbar" class="navbar navbar-expand-lg  navbar-dark">
+        <a class="navbar-brand ml-2 mt-3" href="#"><img src="foodies.png" width="220px" height="50px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav mr-auto"></div>
+            <ul class="navbar-nav my-2 my-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link mr-4" href="../home page/homepage.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  mr-4" href="../Aboutus/aboutUs.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  mr-4" href="../Menu/Menu.html">Menu</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link  mr-4" href="#Contact">Contact<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  mr-4" href="../order form/form.html">Order Online</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section class="container-fluid" id="first">
+        <h1 id="contact">CONTACT US</h1>
+    </section>
+
+    <h1 class="display-4 mt-4 text-center"><b>Contact Details</b></h1>
+
+    <div class="container-fluid mt-2">
+        <div class="row">
+         <div class="col-lg-6 mt-5"> 
+             <h1 class="h">Our Address:</h1>
+             <p class="cont"> LA-2/B, Block 21, Main Rashid Minhas Road</p>
+            <h1 class="h">Our Email:</h1>
+            <p class="cont">foodies@gmail.com</p>
+            <h1 class="h">Our Phone Number:</h1>
+            <p class="cont">0213456789</p>      
+        </div>
+
+        <div class="col-lg-6">
+            <section id="formed">
+                <form>
+                    <div id="contact-box">
+                        NAME: <input type="text" class="content" id="name" name="name" placeholder="John Smith">
+                        <br><br>
+                        EMAIL: <input type="email" class="content" id="mail" name="email" placeholder="johnsmith@mail.com">
+                        <br><br>
+                        MOBILE NO.: <input type="tel" class="content" id="number" name="mobile" placeholder="03001234567">
+                        <br><br>
+                        MESSAGE:
+                        <br><br>
+                        <textarea id="text" cols="60" rows="10" placeholder="Message"></textarea>
+                        <br><br>
+                        <button id="two" onclick="send()">Send Message</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+       </div>  
+    </div>
+
+    <!--FOOTER -->
+    <footer id="foot">
+        <div class="footer-left">
+            <div class="inner-footer">
+                <div class="footer-items">
+                    <h1 id="h">About us</h1>
+                    <p class="fpara">Established in August 2010, Foodies believes in facilitating
+                        it’s guests with an experience of fine dining at reasonable prices and extra ordinary
+                        services.
+                        We will be the leader in Pakistani restaurant franchising with excellent flavour, organic
+                        food
+                        offerings, and a consistent experience that
+                        revolves around fresh food, family, Karachi nostalgia, and a sense of social consciousness.
+                        <a class="Le" href="../About us/aboutUs.htm">Learn More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-center">
+            <div class="inner-footer">
+                <div class="footer-items">
+
+                    <h2 id="he">Quick Links</h2>
+                    <p class="A"><a class="r" href="../home page/homepage.html">Home</a></p>
+                    <p class="A"><a class="r" href="../About us/aboutUs.htm">About us</a></p>
+                    <p class="A"><a class="r" href="../Menu/Menu.html">Menu</a></p>
+                    <p class="A"><a class="r" href="../Deals/Deals.html">Deals</a></p>
+                    <p class="A"><a class="r" href="contact.html">Contact</a></p>
+                    <p class="A"><a class="r" href="../Privacy Policy/policy.html">Privacy Policy</a></p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <div class="inner-footer">
+                <div class="footer-items">
+                    <h3 id="hea">Contact us</h3>
+                    <p class="fpara">If you have any questions, comments, or would like to reserve a table,
+                        please feel free to reach out to us directly, or fill out the form on our <a class="Le"
+                            href="../Contact/contact.html">contact page</a>.</p>
+                    <p class="fpa"><i class="fas fa-phone-alt"></i> 111-123-111</p>
+                    <p class="fpa"><i class="fas fa-map-marker-alt"></i> LA-2/B, Block 21, Main Rashid Minhas Rd</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="last"><i class="fab fa-facebook-square"></i> <i class="fab fa-facebook-messenger" id="icon2"></i>
+            <i class="fab fa-instagram" id="icon"></i> <i class="fab fa-twitter" id="icon1"></i>
+        </p>
+
+        <p class="last">© 2021 Foodies, Pakistan All rights reserved. </p>
+    </footer>
+    </div>
+</body>
+
+</html>

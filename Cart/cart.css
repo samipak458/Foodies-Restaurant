@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    background-color: rgb(22, 13, 1);
+    color: #eb9868;
+    font-size: 40px;
+    padding: 15px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+.cart{
+    border: 0px;
+    padding: 10px;
+    height: 100%;
+    background-color:#0c0501a9 ;
+    color: #fff;
+}
+/* NAV BAR */
+.navbar{
+	background-color: black;
+   
+  }
+  .navbar .nav-link{
+	font-size: 17px;
+	text-transform: uppercase;
+	padding: 7px 13px;
+	border-radius: 3px;
+  }
+  
+  .navbar .nav-link:hover{ 
+	color: white;
+	  background-color:#ff0157;
+  }
+.bg-img {
+    background-image: url("cart.jpg");
+    background-color: azure;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;  
+}
+
+/*Cart Page*/
+.cart_item_title {
+    font-size: 20px;
+    font-weight: 400;
+    color: goldenrod;
+}
+
+
+.cart_item_total {
+    text-align: left;
+	padding-left: 5px;
+}
+
+.cart_item_info {
+    opacity: 0.9;
+	background-color: rgba(0, 0, 0, 0.664);
+	background-image: linear-gradient(rgb(40, 40, 40), black);
+    width: 200px;
+    float: right;
+    padding-top: 18px;
+	padding-bottom:18px ;
+	margin-right: 145px;
+}
+
+.checkout,.clearCart{
+    text-align: center;
+    color: gold;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #494949 ;
+    padding: 6px;
+    border: 2px solid #494949 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    font-size: 12px;
+	margin-top: 10px;
+	margin-left: 3px;
+	border-radius: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+        
+}
+.checkout:hover {
+    color: #200f05 !important;
+    background: goldenrod;
+    border-color: #200f05 !important;
+    transition: all 0.8s ease -8s;
+	text-transform: none;
+    text-decoration: none;
+    }  
+.clearCart:hover {
+        color: #200f05 !important;
+        background: goldenrod;
+        border-color: #200f05 !important;
+        }      
+
+a{
+	text-transform: none;
+}
+
+.i{
+    font-size: 0.5px;
+}
+
+
