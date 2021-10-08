@@ -13,7 +13,7 @@ This website consist of five pages.
 4. Contact
 5. Online Order
 
-**Home page** shows the latest deals. It also includes feature gallery and lastly there is subscribe to newsletter section where you can subscribe to uur subscription. **About Us page** is all about are restaurant speciality and chefs. **sContact page** that offers you a form for your feedback or message and reservation. 
+**Home page** shows the latest deals. It also includes feature gallery and lastly there is subscribe to newsletter section where you can subscribe to our subscription. **About Us page** is all about are restaurant speciality and chefs. **Contact page** that offers you a form for your feedback or message and reservation. 
 
 The **Menu page** redirect to **Online Order page**. The Online Order page provide the cart functionality. It uses JavaScript event listeners, query selectors and local storage to provide cart service. Each item type various types with the add to cart button. By clicking this button, the record is added to your cart that you can see on the cart page. Then by clicking checkout you will move to **Checkout page** where you will ask to give your personal details for delievery of food. After providing personal details click on confirm button, your order will be confirmed.
 
