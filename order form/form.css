@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: #555;
+  background-image: url(cover.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+}
+.menu-card{
+  background-color: rgba(34, 34, 34, 0.88);
+  margin: auto;
+  margin-top: 120px;
+  width: 1000px;
+  height: auto;
+  border-radius: 10px 10px;
+}
+/* NAV BAR */
+.navbar{
+	background-color: black;
+   
+  }
+  .navbar .nav-link{
+	font-size: 17px;
+	text-transform: uppercase;
+	padding: 7px 13px;
+	border-radius: 3px;
+  }
+  
+  .navbar .nav-link:hover{ 
+	color: white;
+	  background-color:#ff0157;
+  }
+
+/*Body Working*/ 
+
+.display-items{
+  border:1px dashed rgb(238, 238, 70);
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  color: white;
+}
+.item{
+  border-radius: 5px;
+  /* background-color: gold; */
+  background-color: black;
+  opacity: .7;
+  font-weight: 600;
+  /* color: black; */
+  color: goldenrod;
+  padding: 5px;
+  border: none; 
+  text-transform: capitalize;
+} 
+.item:hover{
+  background-color: rgb(17, 17, 17);
+  color:  gold;
+  transition: 0.2s;
+  -ms-transform: scale(1.02, 1.02);
+  -webkit-transform: scale(1.02, 1.02);
+  transform: scale(1.02, 1.02);
+  opacity: 1;
+  }
+.menu{
+  border-top:2px solid goldenrod;
+}
+.h1{
+   color: rgb(250, 194, 51);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-transform: uppercase;
+   border-bottom: 1px solid goldenrod;
+}
+
+h3{
+  color: rgb(228, 172, 32);
+}
+
+#order{
+  border: 2px #555 groove;
+  border-radius: 20px;
+  padding: 15px 30px;
+  background-color: black;
+  color: goldenrod;
+  font-weight: bold;
+  font-family: 'Arial Narrow Bold';
+  font-size: 20px;
+  position: relative;
+  width: 200px;
+  opacity: 0.9;
+  transition: 0.2s;
+}
+#order:hover{
+background-color: rgb(17, 17, 17);
+color:  gold;
+transition: 0.2s;
+-ms-transform: scale(1.02, 1.02);
+-webkit-transform: scale(1.02, 1.02);
+transform: scale(1.02, 1.02);
+opacity: 1;
+}
+
+.i{
+  color: white;
+  display: none;
+}
+
+@media(max-width:700px){
+  .display-items{
+    box-sizing: border-box;
+    padding: 5px;
+    display:flex;
+    font-size: 10px;
+  }
+  .i{
+    border: 1px dashed goldenrod;
+    display:inline-block;
+    opacity: .7;
+  }
+
+  .i:hover{
+    background-color: black;
+    color:goldenrod;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+}

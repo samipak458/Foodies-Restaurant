@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Order Form</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--My CSS File-->
+    <link rel="stylesheet" href="form.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!--Required Bootsrap js links-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/69fecb4176.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--NavBar-->
+    <nav id="mainNavbar" class="navbar navbar-expand-lg  navbar-dark">
+        <a class="navbar-brand ml-2 mr-0 mt-3" href="../home page/homepage.html"><img src="foodies.png" width="220px"
+                height="50px"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav mr-auto"></div>
+            <ul class="navbar-nav my-2 my-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link mr-4" href="../home page/homepage.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  mr-4" href="../Aboutus/aboutUs.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  mr-4" href="../Menu/Menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  mr-4" href="../Contact/contact.html">Contact</a>
+                </li>
+                <li class="nav-item  active">
+                    <a class="nav-link  mr-4 sticky-top" href="../Cart/Cart.html"><i style="color: whitesmoke"
+                            class="fas fa-shopping-cart"></i> <span id="items">0</span><span
+                            class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <p class="mt-2 mx-2 text-light float-right sticky-top"><a href="../Cart/Cart.html" class="i mx-0 px-2 py-1"><i class="fas fa-shopping-cart"></i><span id="item"
+        style="padding-left: 5px;">0</span></a></p>
+    <p id="message" class="sticky-top"></p>
+
+    <section class="py-5 my-5 container menu-card">
+        <h1 class="text-center pt-2"
+            style="font-family: Arial, Helvetica, sans-serif; color:goldenrod; font-size: 60px;">Order Online</h1>
+
+        <section class="container menu">
+            <h1 class="mt-4  h1">Rolls</h1>
+            <div class="display-items ">
+                <h3>Chicken Roll </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Chicken Mayo Roll </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Zinger Roll </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Zinger Mayo Roll </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Beef Roll </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Beef Mayo Roll </h3>
+                <button class="item">Add to cart</button>
+            </div>
+        </section>
+
+
+        <section class="container">
+            <h1 class="mt-4  h1">Burgers</h1>
+            <div class="display-items ">
+                <h3>Chicken Burger </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Beef Burger </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Zinger Burger </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Mexican Zinger </h3>
+                <button class="item">Add to cart</button>
+            </div>
+        </section>
+
+
+        <section class="container">
+            <h1 class="mt-4  h1">Sandwiches</h1>
+            <div class="display-items ">
+                <h3>Chicken</h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Chicken Cheese </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Vegetable </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Vegetable Cheese </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Beef </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Beef cheese</h3>
+                <button class="item">Add to cart</button>
+            </div>
+        </section>
+
+
+        <section class="container">
+            <h1 class="mt-4  h1">Desserts</h1>
+            <div class="display-items ">
+                <h3>Cheese Cake (plain) </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Cheese Cake (special) </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Chocolate Cake </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Fudge Cake </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Ice-cream </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Kulfi </h3>
+                <button class="item">Add to cart</button>
+            </div>
+        </section>
+
+
+        <section class="container">
+            <h1 class="mt-4  h1">Beverages</h1>
+            <div class="display-items ">
+                <h3>Black Coffee </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Cappuccino </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Espresso </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Tea </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Kashmiri Tea </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Soft Drinks </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Fresh Lime </h3>
+                <button class="item">Add to cart</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Mineral Water</h3>
+                <button class="item">Add to cart</button>
+            </div>
+        </section> -->
+
+        <div class="container mt-4 text-center">
+            <a href="../Cart/Cart.html" target="_self">
+                <button id="order" onmouseover="arrowOver()" onmouseout="arrowOut()">
+                    CHECKOUT
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!--JS file-->
+    <script src="form.js"></script>
+</body>
+
+</html>
