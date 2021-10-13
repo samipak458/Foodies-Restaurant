@@ -1,0 +1,38 @@
+*{
+ margin: 0%;
+padding: 0%;
+}
+body{ 
+    background-image: url("3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+}
+
+
+nav{
+    background-color: rgb(22, 13, 1);
+    color: #eb9868;
+    font-size: 40;
+    padding: 15px;
+    text-align: center ;  
+  }
+
+.form-control{
+    width: 100px;
+}
+
+.font {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#errorMessage{
+    float: right;
+    color: red;
+    font-size: 18px;
+}
+
+#n{
+    color: white;
+}
