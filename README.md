@@ -20,3 +20,25 @@ The **Menu page** redirect to **Online Order page**. The Online Order page provi
 Go to this link to see the project: https://foodies.samimunir2002.repl.co/
 
 
+# Feedback✌🏼
+
+If you have any feedback or suggestions please reach out to me.  
+
+Or you can create a  <a href="https://github.com/samipak458/Foodies-Restaurant/issues">issue</a> and mention there , which new features or extension can make this Project more good.
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+<br>
+  
+<br>
+
+<p align="right"><a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-red?style=for-the-badge" /></a></p>
+
+<div align="center">
+
+### Show some ❤️ by starring⭐ this awesome Repository!
+
+</div>
+  
+  
+<div id="Bottom"></div>
