@@ -1,6 +1,6 @@
 # Foodies-Restaurant
 
-![Foodies](https://images.samimunir2002.repl.co/Foodies.png)
+![image](https://github.com/samipak458/Foodies-Restaurant/assets/52650290/51f1c0f0-ab09-458f-a7be-8b4394a626fe)
 
 ### Detailed Description:
 
